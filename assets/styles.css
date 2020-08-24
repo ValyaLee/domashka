@@ -1,5 +1,5 @@
 body {
- width: 800px;
+ width: 1000px;
  margin: auto;
  background-color: #304647;
 }
@@ -24,7 +24,7 @@ button {
  color: white;
  padding: 15px 60px;
  text-align: center;
- font-size: 24px;
+ font-size: 22px;
 }
 button:hover {
  color: #CACC5C;
