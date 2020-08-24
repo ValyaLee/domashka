@@ -1,9 +1,13 @@
 h1 {
-    color: red;
+ color: red;
 }
 #first-par { 
-    color: rgb(31, 194, 139);
+ color: rgb(31, 194, 139);
 }
 .text-blueviolet {
-color: blueviolet;
+ color: blueviolet;
 }
+.bg-grey {
+ background-color: darkgray;
+}
+
