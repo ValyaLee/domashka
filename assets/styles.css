@@ -33,6 +33,16 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Formula Condensed";
+    src: url("fonts/FormulaCondensed-Regular.woff2") format("woff2"),
+        url("fonts/FormulaCondensed-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
  width: 1000px;
  margin: auto;
@@ -42,17 +52,16 @@ body {
  font-style: normal;
  font-size: 30px;
 }
+
 h1 {
  color: #CACC5C;
+ font-family: "Formula Condensed";
 }
-#first-par { 
- color: rgb(31, 194, 139);
- text-align: center;
 
-}
 .text-blueviolet {
  color: blueviolet;
 }
+
 .bg-grey {
  background-color: darkgray;
 }
