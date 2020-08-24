@@ -63,14 +63,15 @@ font-family: "Formula Condensed";
 }
 
 #big {
- font-size: 100px;
+ font-size: 200px;
+ letter-spacing: 3px;
 }
 
 button {
  background-color: #304647;
  border: none;
  color: white;
- padding: 15px 120px;
+ padding: 22px 120px;
  text-align: center;
 
 }
