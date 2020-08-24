@@ -1,8 +1,10 @@
 h1 {
- color: red;
+ color: #CACC5C;
 }
 #first-par { 
  color: rgb(31, 194, 139);
+ text-align: center;
+ font-size: 60px;
 }
 .text-blueviolet {
  color: blueviolet;
