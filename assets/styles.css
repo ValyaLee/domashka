@@ -13,3 +13,6 @@ h1 {
 .bg-darkgreen {
  background-color: #304647;
 }
+button:hover {
+ color: #CACC5C;
+}
