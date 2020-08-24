@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Favorit Pro Book";
-    src: url("fonts/FavoritPro-Book.woff2") format("woff2"),
-        url("fonts/FavoritPro-Book.woff") format("woff");
+    src: url("assets/fonts/FavoritPro-Book.woff2") format("woff2"),
+        url("assets/fonts/FavoritPro-Book.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: "Favorit Pro";
-    src: url("fonts/FavoritPro-Regular.woff2") format("woff2"),
-        url("fonts/FavoritPro-Regular.woff") format("woff");
+    src: url("assets/fonts/FavoritPro-Regular.woff2") format("woff2"),
+        url("assets/fonts/FavoritPro-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: "Favorit Pro";
-    src: url("fonts/FavoritPro-Bold.woff2") format("woff2"),
-        url("fonts/FavoritPro-Bold.woff") format("woff");
+    src: url("assets/fonts/FavoritPro-Bold.woff2") format("woff2"),
+        url("assets/fonts/FavoritPro-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: "Favorit Pro";
-    src: url("fonts/FavoritPro-Light.woff2") format("woff2"),
-        url("fonts/FavoritPro-Light.woff") format("woff");
+    src: url("assets/fonts/FavoritPro-Light.woff2") format("woff2"),
+        url("assets/fonts/FavoritPro-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -39,6 +39,8 @@ body {
  background-color: #304647;
  font-family: "Favorite Pro";
  font-weight: 300;
+ font-style: normal;
+ font-size: 30px;
 }
 h1 {
  color: #CACC5C;
@@ -46,7 +48,7 @@ h1 {
 #first-par { 
  color: rgb(31, 194, 139);
  text-align: center;
- font-size: 60px;
+
 }
 .text-blueviolet {
  color: blueviolet;
@@ -61,7 +63,7 @@ button {
  color: white;
  padding: 15px 120px;
  text-align: center;
- font-size: 20px;
+
 }
 button:hover {
  color: #CACC5C;
