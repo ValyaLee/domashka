@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Favorit Pro Book";
-    src: url("assets/fonts/FavoritPro-Book.woff2") format("woff2"),
-        url("assets/fonts/FavoritPro-Book.woff") format("woff");
+    src: url("fonts/FavoritPro-Book.woff2") format("woff2"),
+        url("fonts/FavoritPro-Book.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: "Favorit Pro";
-    src: url("assets/fonts/FavoritPro-Regular.woff2") format("woff2"),
-        url("assets/fonts/FavoritPro-Regular.woff") format("woff");
+    src: url("fonts/FavoritPro-Regular.woff2") format("woff2"),
+        url("fonts/FavoritPro-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: "Favorit Pro";
-    src: url("assets/fonts/FavoritPro-Bold.woff2") format("woff2"),
-        url("assets/fonts/FavoritPro-Bold.woff") format("woff");
+    src: url("fonts/FavoritPro-Bold.woff2") format("woff2"),
+        url("fonts/FavoritPro-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: "Favorit Pro";
-    src: url("assets/fonts/FavoritPro-Light.woff2") format("woff2"),
-        url("assets/fonts/FavoritPro-Light.woff") format("woff");
+    src: url("fonts/FavoritPro-Light.woff2") format("woff2"),
+        url("fonts/FavoritPro-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
