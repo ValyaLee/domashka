@@ -1,5 +1,9 @@
 h1 {
     color: red;
-  }
-  #first-par{ color: aquamarine;}
-  #first1{color: #FF8C00}
+}
+#first-par { 
+    color: rgb(31, 194, 139);
+}
+.text-blueviolet {
+color: blueviolet;
+}
