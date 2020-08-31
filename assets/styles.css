@@ -1,46 +1,46 @@
 @font-face {
-    font-family: "Favorit Pro Book";
-    src: url("fonts/FavoritPro-Book.woff2") format("woff2"),
+ font-family: "Favorit Pro Book";
+ src: url("fonts/FavoritPro-Book.woff2") format("woff2"),
         url("fonts/FavoritPro-Book.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
-    font-family: "Favorit Pro";
-    src: url("fonts/FavoritPro-Regular.woff2") format("woff2"),
+ font-family: "Favorit Pro";
+ src: url("fonts/FavoritPro-Regular.woff2") format("woff2"),
         url("fonts/FavoritPro-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
-    font-family: "Favorit Pro";
-    src: url("fonts/FavoritPro-Bold.woff2") format("woff2"),
+ font-family: "Favorit Pro";
+ src: url("fonts/FavoritPro-Bold.woff2") format("woff2"),
         url("fonts/FavoritPro-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+ font-weight: bold;
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
-    font-family: "Favorit Pro";
-    src: url("fonts/FavoritPro-Light.woff2") format("woff2"),
+ font-family: "Favorit Pro";
+ src: url("fonts/FavoritPro-Light.woff2") format("woff2"),
         url("fonts/FavoritPro-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
 }
 
 @font-face {
-    font-family: "Formula Condensed";
-    src: url("fonts/FormulaCondensed-Regular.woff2") format("woff2"),
+ font-family: "Formula Condensed";
+ src: url("fonts/FormulaCondensed-Regular.woff2") format("woff2"),
         url("fonts/FormulaCondensed-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
 }
 
 *,
@@ -50,6 +50,9 @@
 *:focus {color: #CACC5C ;
 }
 body {
+ width: 100%;
+ min-width: 100px;
+ max-width: 1440px;
  padding:0; 
  margin:0;
  font-family: "Favorit Pro";
@@ -59,19 +62,14 @@ body {
 }
 
 h1 {
-color: #CACC5C;
-font-family: "Formula Condensed";
-font-size: 150px;
-letter-spacing: 3px;
-margin-top: 50px;
-margin-left: 450px;
-margin-right: 50px;
-padding: 10px 10px;
-}
-
-h2 {
-color: #304647;
-font-family: "Formula Condensed";
+ color: #CACC5C;
+ font-family: "Formula Condensed";
+ font-size: 150px;
+ letter-spacing: 3px;
+ margin-top: 50px;
+ margin-left: 450px;
+ margin-right: 50px;
+ padding: 10px 10px;
 }
 
 button {
@@ -91,14 +89,17 @@ button {
  border: none;
  outline: none;
 }
+
 .button1 {
  margin-left: 330px;
  margin-right: 50px;
 }
+
 .button2 { 
  margin-left: 180px;
  margin-right: 50px;
 }
+
 .button3 { 
  margin-left: 180px;
  margin-right: 50px;}
@@ -128,7 +129,6 @@ cite {
  margin-right: 50px;    
 }
 
-
 div {
  top: 0;
  left: 0;
@@ -141,4 +141,60 @@ div {
  padding-top: 30px;
  height: 900px;
  background-color: #CACC5C;
+}
+
+h2 {
+ position: absolute;
+ width: 500px;
+ height: 160px;
+ left: 127px;
+ top: 1000px;
+ margin: 10px;
+ padding: 10px 10px;
+ color: #304647;
+ font-family: "Formula Condensed";
+ font-style: normal;
+ font-weight: bold;
+ font-size: 110px;
+ letter-spacing: 3px;
+}
+
+h3 {
+ position: absolute;
+ width: 540px;
+ height: 240px;
+ left: 825px;
+ top: 950px;
+ margin: 10px;
+ padding: 10px 10px;
+ font-family: "Formula Condensed";
+ font-style: normal;
+ font-weight: bold;
+ font-size: 56px;
+ letter-spacing: 3px;
+ color: #304647;
+}
+
+img {
+ position: absolute;
+ width: 555px;
+ height: 429px;
+ left: 60px;
+ top: 1200px;
+ margin: 10px;
+ padding: 10px 10px;
+}
+
+p {
+ position: absolute;
+ width: 470px;
+ height: 328px;
+ left: 825px;
+ top: 1200px;
+ margin: 10px;
+ padding: 10px 10px;
+ font-family: Favorit Pro;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 22px;
 }
