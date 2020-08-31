@@ -52,7 +52,7 @@
 body {
  padding:0; 
  margin:0;
- min-width: 1000px;
+ max-width: 1440px;
  font-family: "Favorit Pro";
  font-weight: 300;
  font-style: normal;
@@ -64,7 +64,7 @@ color: #CACC5C;
 font-family: "Formula Condensed";
 font-size: 150px;
 letter-spacing: 3px;
-margin: 15px;
+margin-top: 50px;
 margin-left: 450px;
 margin-right: 50px;
 padding: 10px 10px;
@@ -97,7 +97,7 @@ button {
  margin-right: 50px;
 }
 .button2 { 
- margin-left: 70px;
+ margin-left: 180px;
  margin-right: 50px;
 }
 .button3 { 
@@ -109,12 +109,26 @@ button:hover {
 }
 
 cite, blockquote {
+ height: 100px;
+ width: 900px;
  color: white;
  font-family: "Favorit Pro";
  font-weight: 300;
  font-style: normal;
- font-size: 22px;
+ font-size: 20px;
+ margin-top: 50px;
+ margin-left: 450px;
+ margin-right: 70px;
+ padding: 10px 10px;
 }
+
+cite {
+ height: 70px;
+ width: 170px;
+ margin-left: 650px;
+ margin-right: 50px;    
+}
+
 
 div {
  top: 0;
