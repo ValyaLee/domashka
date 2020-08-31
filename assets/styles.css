@@ -65,7 +65,9 @@ font-family: "Formula Condensed";
 font-size: 150px;
 letter-spacing: 3px;
 margin: 15px;
-padding: 20px 500px;
+margin-left: 450px;
+margin-right: 50px;
+padding: 10px 10px;
 }
 
 h2 {
@@ -74,9 +76,6 @@ font-family: "Formula Condensed";
 }
 
 button {
- border-left-width: 70px;
- margin-left: 150px;
- margin-right: 100px;
  height: 70px;
  width: 170px;
  padding-top: 10px;
@@ -89,15 +88,21 @@ button {
  font-family: "Favorit Pro";
  font-weight: 300;
  font-style: normal;
- font-size: 22px;
+ font-size: 20px;
  border: none;
  outline: none;
 }
-
-.artists {
- margin-left: 500px;
-margin-right: 100px;
+.button1 {
+ margin-left: 330px;
+ margin-right: 50px;
 }
+.button2 { 
+ margin-left: 70px;
+ margin-right: 50px;
+}
+.button3 { 
+ margin-left: 180px;
+ margin-right: 50px;}
 
 button:hover {
  color: #CACC5C;
