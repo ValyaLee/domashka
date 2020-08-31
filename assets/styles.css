@@ -60,8 +60,12 @@ body {
 }
 
 h1 {
- color: #304647;
- font-family: "Formula Condensed";
+color: #CACC5C;
+font-family: "Formula Condensed";
+font-size: 150px;
+letter-spacing: 3px;
+margin: 15px;
+padding: 20px 500px;
 }
 
 h2 {
@@ -69,18 +73,10 @@ color: #304647;
 font-family: "Formula Condensed";
 }
 
-#big {
- color: #CACC5C;
- font-size: 150px;
- letter-spacing: 3px;
- margin: 15px;
- padding: 20px 500px;
-}
-
 button {
  border-left-width: 70px;
  margin-left: 150px;
- margin-right: 150px;
+ margin-right: 100px;
  height: 70px;
  width: 170px;
  padding-top: 10px;
@@ -97,6 +93,12 @@ button {
  border: none;
  outline: none;
 }
+
+.artists {
+ margin-left: 500px;
+margin-right: 100px;
+}
+
 button:hover {
  color: #CACC5C;
 }
